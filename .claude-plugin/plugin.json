@@ -1,0 +1,13 @@
+{
+  "name": "pasted-images",
+  "version": "0.1.0",
+  "description": "Shows images pasted into the prompt as thumbnails under the prompt row in the terminal (kitty graphics: Ghostty, kitty).",
+  "author": {
+    "name": "LosPollosLogic93",
+    "url": "https://github.com/LosPollosLogic93"
+  },
+  "homepage": "https://github.com/LosPollosLogic93/claude-pasted-images",
+  "repository": "https://github.com/LosPollosLogic93/claude-pasted-images",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

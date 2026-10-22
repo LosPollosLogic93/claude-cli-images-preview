@@ -1,0 +1,15 @@
+{
+  "name": "claude-pasted-images",
+  "description": "Thumbnails of pasted images in the Claude Code terminal.",
+  "owner": {
+    "name": "LosPollosLogic93",
+    "url": "https://github.com/LosPollosLogic93"
+  },
+  "plugins": [
+    {
+      "name": "pasted-images",
+      "source": "./",
+      "description": "Shows images pasted into the prompt as thumbnails under the prompt row in the terminal."
+    }
+  ]
+}
