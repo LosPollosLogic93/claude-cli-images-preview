@@ -6,8 +6,8 @@
     "name": "LosPollosLogic93",
     "url": "https://github.com/LosPollosLogic93"
   },
-  "homepage": "https://github.com/LosPollosLogic93/claude-pasted-images",
-  "repository": "https://github.com/LosPollosLogic93/claude-pasted-images",
+  "homepage": "https://github.com/LosPollosLogic93/claude-cli-images-preview",
+  "repository": "https://github.com/LosPollosLogic93/claude-cli-images-preview",
   "license": "MIT",
   "types": "./types/index.d.ts"
 }

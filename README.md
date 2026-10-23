@@ -1,4 +1,4 @@
-# claude-pasted-images
+# claude-cli-images-preview
 
 A [Claude Code](https://claude.com/claude-code) mod that shows the images you paste into the prompt as thumbnails in the terminal transcript, under the prompt that carried them.
 
@@ -9,7 +9,7 @@ Without it, a pasted image shows only as `[Image #N]` in the terminal. With it, 
 Mods need Claude Code **2.1.287** or later; this one was built and tested on 2.1.292. In a terminal session:
 
 ```
-/plugin install pasted-images --marketplace LosPollosLogic93/claude-pasted-images
+/plugin install pasted-images --marketplace LosPollosLogic93/claude-cli-images-preview
 ```
 
 Answer `y` to add the marketplace and pick the user scope. Thumbnails appear for images you paste from then on.
@@ -67,10 +67,10 @@ It only reads: the image files, the prompt box's text, and the folder listing it
 ## Develop
 
 ```sh
-git clone https://github.com/LosPollosLogic93/claude-pasted-images
-claude --plugin-dir ./claude-pasted-images
-claude plugin validate ./claude-pasted-images
-claude plugin test ./claude-pasted-images
+git clone https://github.com/LosPollosLogic93/claude-cli-images-preview
+claude --plugin-dir ./claude-cli-images-preview
+claude plugin validate ./claude-cli-images-preview
+claude plugin test ./claude-cli-images-preview
 ```
 
 ## License

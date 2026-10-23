@@ -1,5 +1,5 @@
 {
-  "name": "claude-pasted-images",
+  "name": "claude-cli-images-preview",
   "description": "Thumbnails of pasted images in the Claude Code terminal.",
   "owner": {
     "name": "LosPollosLogic93",
