@@ -1,5 +1,5 @@
 {
-  "name": "pasted-images",
+  "name": "cli-images-preview",
   "version": "0.1.0",
   "description": "Shows images pasted into the prompt as thumbnails under the prompt row in the terminal (kitty graphics: Ghostty, kitty).",
   "author": {

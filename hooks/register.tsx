@@ -51,9 +51,9 @@ const ENLARGE_HOVER = { color: 'cyan', bold: true } as const
 const ENLARGED_ROW_MARGIN = 8
 const MIN_ENLARGED_ROWS = 10
 
-const savedImagesAtom = atom({ plugin: 'pasted-images', key: 'savedImages' } as const, {})
-const draftImageNumbersAtom = atom({ plugin: 'pasted-images', key: 'draftImageNumbers' } as const, [])
-const viewedImageAtom = atom({ plugin: 'pasted-images', key: 'viewedImage' } as const, null)
+const savedImagesAtom = atom({ plugin: 'cli-images-preview', key: 'savedImages' } as const, {})
+const draftImageNumbersAtom = atom({ plugin: 'cli-images-preview', key: 'draftImageNumbers' } as const, [])
+const viewedImageAtom = atom({ plugin: 'cli-images-preview', key: 'viewedImage' } as const, null)
 
 // Derived caches of hits only, rebuilt from disk after a reload; a paste still being written is looked up again.
 const foundPaths = new Map<string, string>()

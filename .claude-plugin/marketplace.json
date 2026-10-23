@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "pasted-images",
+      "name": "cli-images-preview",
       "source": "./",
       "description": "Shows images pasted into the prompt as thumbnails under the prompt row in the terminal."
     }

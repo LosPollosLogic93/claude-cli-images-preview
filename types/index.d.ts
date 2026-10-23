@@ -9,7 +9,7 @@ export interface ViewedImage {
 
 declare module 'claude-code' {
   interface PluginState {
-    'pasted-images': {
+    'cli-images-preview': {
       savedImages: SavedImages
       // The `[Image #N]` the prompt box holds now, before it is sent.
       draftImageNumbers: number[]

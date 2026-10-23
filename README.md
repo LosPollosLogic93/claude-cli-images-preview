@@ -9,7 +9,7 @@ Without it, a pasted image shows only as `[Image #N]` in the terminal. With it, 
 Mods need Claude Code **2.1.287** or later; this one was built and tested on 2.1.292. In a terminal session:
 
 ```
-/plugin install pasted-images --marketplace LosPollosLogic93/claude-cli-images-preview
+/plugin install cli-images-preview --marketplace LosPollosLogic93/claude-cli-images-preview
 ```
 
 Answer `y` to add the marketplace and pick the user scope. Thumbnails appear for images you paste from then on.
@@ -61,7 +61,7 @@ It only reads: the image files, the prompt box's text, and the folder listing it
 ## Uninstall
 
 ```
-/plugin uninstall pasted-images
+/plugin uninstall cli-images-preview
 ```
 
 ## Develop
